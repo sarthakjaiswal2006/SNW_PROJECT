@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style> 
+        *{
+            margin: 0;
+            padding: 0;
+        }  
+        nav{
+            padding: 30px; 
+            position: fixed; 
+            top: 0;          
+            left: 0;         
+            width: 100%;      
+            background-color: white; 
+            z-index: 1000;    
+        }  
+        a.nav{
+            margin-left: 60px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            text-decoration: none;
+            font-weight: bolder; 
+            color: black;
+        }  
+        a:hover{
+            text-decoration: underline; 
+        } 
+        #logo{
+            width: 100px;
+            height: 50px; 
+            position: absolute; 
+            left: 50%;
+            transform: translateX(-50%); 
+        } 
+        input{ 
+            width: 250px;
+            height: 50px; 
+            margin-left:25%; 
+            border-radius: 30px;
+        }
+        .rightbar{
+            height: 30px;
+            width: 30px;
+            margin-left: 30px; 
+            
+        }
+        #potter{
+            width: 100%;
+            height: 436.66px;
+        }  
+        h1{ 
+            margin-top: 20px;
+            text-align: center; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        } 
+        .box{
+            width: 300px;
+            height: 500px; 
+            display: inline-block; 
+            margin-left: 15px; 
+            margin-top: 20px; 
+            margin-bottom: 20px;
+        } 
+        img.NEW{
+            width: 300px;
+            height: 400px;
+        } 
+        p{
+            text-align: left; 
+            margin-top: 10px; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }  
+        #potter{
+            margin-top: 125px;
+        } 
+        .collab{
+            width: 400px;
+            height: 400px; 
+            display: inline-block; 
+            margin-left: 15px;
+            margin-top: 20px; 
+            margin-bottom: 20px;  
+        } 
+        .NEW2{
+            width: 400px;
+            height: 400px; 
+        }  
+        footer>h1{
+            background-color: red;
+            color: white;
+        }  
+        footer>p::first-letter{
+            font-weight: bolder;
+        } 
+        footer>p{
+            font-size: 48px;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        } 
+        footer>div{
+            height: 400px;
+            width: 100%; 
+            background-color: lightgrey;
+        } 
+    </style>
+</head>
+<body>
+    <header> 
+            <nav>
+                <img id="lines" src="https://prod-img.thesouledstore.com/static/hamburger-bleack.svg?w=576&dpr=2" alt="THREE LINES"> 
+                <a class="nav" href="#">MEN</a>
+                <a class="nav" href="#">WOMEN</a>
+                <a class="nav" href="#">SNEAKERS</a> 
+                <img id="logo" src="https://prod-img.thesouledstore.com/static/non-member-logo2.gif?w=100&dpr=2" alt="logo"> 
+                <input type="text" placeholder="  What are you looking for?">  
+                <img class="rightbar" src="https://prod-img.thesouledstore.com/static/mship-profile.svg?w=30&dpr=2" alt="profile">
+                <img class="rightbar" src="https://prod-img.thesouledstore.com/static/mship-wishlist.svg?w=30&dpr=2" alt="liked">
+                <img class="rightbar" src="https://prod-img.thesouledstore.com/static/shopping-cart.svg?w=30&dpr=2" alt="cart">  
+            </nav>
+    </header> 
+    <main> 
+        <section>
+            <img id="potter" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/banner-images/homepage_30_KPKttw5.jpg?w=1500&dpr=2" alt="harry potter">
+        </section> 
+        <section>
+            <h1>NEW ARRIVALS</h1> 
+            <div class="box"> 
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760793118_5125764.jpg?w=360&dpr=2" alt="img1"> 
+                <p>TSS Orignals:Urban Drift</p>
+                <p>Men Oversized Joggers</p>
+                <p>₹1899</p>
+            </div>
+            <div class="box" >
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760803335_6195040.jpg?w=360&dpr=2" alt="img2"> 
+                <p>Oversized Jacket: Hunter</p>
+                <p>Bomber Jacket</p>
+                <p>₹3499</p>
+            </div>
+            <div class="box">
+                <img class="NEW"src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760773986_4292183.jpg?w=360&dpr=2" alt="img3"> 
+                <p>Pets on prints:Chill dog</p>
+                <p>Oversized Tshirt</p>
+                <p>₹899</p>
+            </div>
+            <div class="box">
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1760791405_1308875.jpg?w=360&dpr=2" alt="img4"> 
+                <p>Textured cargo pants:Cocoa</p>
+                <p>Men cargo pants</p>
+                <p>₹2099</p>
+            </div>    
+        </section> 
+        <section>
+            <h1>TOP PICKS OF THE WEEK</h1> 
+            <div class="box"> 
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/1_5_dDuJ1GM.jpg?w=360&dpr=2" alt="img1"> 
+                <p>Cotton linen midnight black</p>
+                <p>Cotton Linen shirt</p>
+                <p>₹1499</p>
+            </div>
+            <div class="box">
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/2_6_OpEtw4Y.jpg?w=360&dpr=2" alt="img2"> 
+                <p>Korean Joggers: Off white</p>
+                <p>Joggers</p>
+                <p>₹1749</p>
+            </div>
+            <div class="box">
+                <img class="NEW"src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/3_5_QtAHjom.jpg?w=360&dpr=2" alt="img3"> 
+                <p>Harry Potters:Lion house</p>
+                <p>Sweaters</p>
+                <p>₹1999</p>
+            </div>
+            <div class="box" >
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/4_6_xj3cfjz.jpg?w=360&dpr=2" alt="img4"> 
+                <p>TSS Orignals: Kaal Chakra </p>
+                <p>Oversized Tshirts</p>
+                <p>₹1599</p>
+            </div> 
+            <div class="box"> 
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/5_4_QL5s0x3.jpg?w=360&dpr=2" alt="img1"> 
+                <p>Spider Man: Oscorp Suit</p>
+                <p>Oversized Tee</p>
+                <p>₹1249</p>
+            </div>
+            <div class="box" >
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/6_4_nu1O1QG.jpg?w=360&dpr=2" alt="img2"> 
+                <p>FCB Numero :10</p>
+                <p>Oversized Tee</p>
+                <p>₹1399</p>
+            </div>
+            <div class="box" >
+                <img class="NEW"src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/7_4_2JrId6U.jpg?w=360&dpr=2" alt="img3"> 
+                <p>Straight Fit Denim</p>
+                <p>Jeans</p>
+                <p>₹2099</p>
+            </div>
+            <div class="box" >
+                <img class="NEW" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/8_4_xQxF0us.jpg?w=360&dpr=2" alt="img4"> 
+                <p>Milano Olive</p>
+                <p>Sneakers</p>
+                <p>21599</p>
+            </div> 
+            <h1>OUR COLLABS</h1> 
+            <div class="collab" >
+                <a class="collab" href="#">
+                    <img class="NEW2" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/fandom_tile.jpg?w=480&dpr=2" alt="img1">
+                </a>
+            </div>
+            <div class="collab"> 
+                <a class="collab" href="#">
+                    <img class="NEW2" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/Venom2.jpg?w=480&dpr=2" alt="img2">
+                </a>
+            </div>
+            <div class="collab" >
+                <a class="collab" href="">
+                    <img class="NEW2" src="https://prod-img.thesouledstore.com/public/theSoul/storage/mobile-cms-media-prod/product-images/dc-1.jpg?w=480&dpr=2" alt="img3">
+                </a>
+            </div>
+        </section>
+    </main> 
+    <footer>
+        <h1>HOMEGROWN INDIAN BRAND</h1> 
+        <p>Over 6 million Happy Customers!!</p> <br><br><br>
+    </footer>
+</body>
+</html>
